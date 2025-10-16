@@ -11,6 +11,6 @@ type LoginTracking struct {
 	CountryCode    string `db:"countrycode"`
 	GMTTime        string `db:"gmttime"`
 	Lang           string `db:"lang"`
-	action         string `db:"action"`
-	jsonstring     string `db:"jsonstring"`
+	Action         string `db:"action"`
+	Jsonstring     string `db:"jsonstring"`
 }
